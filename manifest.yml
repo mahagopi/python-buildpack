@@ -56,6 +56,13 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+- name: django
+  version: 2.1.1
+  uri: https://www.djangoproject.com/download/2.1.1/tarball/
+  sha256: e1cc1cd6b658aa4e052f5f2b148bfda08091d7c3558529708342e37e4e33f72c
+  cf_stacks:
+  - cflinuxfs2
+  - cflinuxfs3
 - name: pip-pop
   version: 0.1.1
   cf_stacks:
